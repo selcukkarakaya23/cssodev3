@@ -1,0 +1,65 @@
+
+
+#search-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#search-input {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    outline: none;
+}
+#microphone-button, #image-search-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#search-icons {
+    display: flex;
+    align-items: center;
+    margin-left: -80px;
+}
+
+#google-logo {
+    text-align: center;
+    top: 25%;
+    left: 40%;
+    position:absolute
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+
+#header-links {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+#header-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: normal;
+}
+
+#header-links a:hover {
+    color: black; /* Renk değiştirme işlemi */
+    text-decoration: underline;
+}
